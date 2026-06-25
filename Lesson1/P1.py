@@ -18,3 +18,7 @@ print(artist,type(artist))
 print(albumn,type(albumn))
 
 print(int(artist) + albumn)
+best_friend = 'Timmy'
+print('Enter your best friend',end= ' ') 
+best_friend = input()
+print('Your best friend is named', best_friend)
