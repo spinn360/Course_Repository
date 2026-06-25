@@ -22,3 +22,13 @@ best_friend = 'Timmy'
 print('Enter your best friend',end= ' ') 
 best_friend = input()
 print('Your best friend is named', best_friend)
+print('enter random things until you dont have to anymore')
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+f=input()
+
+print('thank you')
+print('You entered', a,b,c,d,e,f)
