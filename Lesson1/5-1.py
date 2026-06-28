@@ -49,3 +49,17 @@ object_velocity = float(input('Enter object velocity: '))
 kinetic_energy = 1/2 * object_mass * object_velocity * object_velocity
 
 print(f'Kinetic Energy is {kinetic_energy}')
+
+age_years = float(input('Enter your age: '))
+weight_pounds = float(input('Enter your weight: '))
+heart_bpm = float(input('Enter heart BPM: '))
+time_minutes = float(input('Enter length of time in minutes: '))
+sex = input('m for male, f for female: ')
+
+# don't know how to do if sex is 'm' or 'f' yet:
+calories_man = ( (age_years * 0.2017) + (weight_pounds * 0.09036) + (heart_bpm * 0.6309) - 55.0969 ) * time_minutes / 4.184
+
+calories_woman = ( (age_years * 0.074) - (weight_pounds * 0.05741) + (heart_bpm * 0.4472) - 20.4022 ) * time_minutes/ 4.184
+
+print(f'A man burns {calories_man}')
+print(f'A female burns {calories_woman}')
