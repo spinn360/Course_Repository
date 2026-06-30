@@ -40,3 +40,20 @@ my_list = "Amy's vegetables:\nOkra\tCorn\t"
 
 print(my_list, end="")
 print(vegetable_input)
+
+my_str = 'hello world'
+print('my_str contains the words \'hello world\'')
+world_index = my_str.find('world')
+print('Searching for word \'world\'...')
+print('The word \'world\' was found at substring',world_index)  # 6
+
+world_indexCount = my_str.count('l')
+print('Searching for a count of \'l\'s...')
+print('The \'l\'s were found and there were',world_indexCount, 'found')  # 6
+my_str_cap = my_str.capitalize()
+print('capitalized my_str:',my_str_cap)
+
+print(f'all letters in my_str are now capital: {my_str.isupper()}') # isupper checks if all letter are uppercase
+print(f'all letters in my_str are now lower: {my_str.islower()}') # islower checks if all letter are lowercase
+print(f'all letters in my_str_cap are now lower: {my_str_cap.islower()}') # islower checks if all letter are lowercase
+print(f'This title function capitalizes each word\'s first letter. {my_str.title()}')
