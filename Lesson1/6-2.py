@@ -59,3 +59,11 @@ answer = math.floor(h - (math.sqrt(i))) # square root of i subtracted from h and
 
 
 print(answer)
+
+
+user_num = int(input())
+div_num = int(input())
+user_num1 = math.floor((user_num / div_num))
+user_num2 = math.floor((user_num1 / div_num))
+user_num3 = math.floor((user_num2 / div_num))
+print(user_num1,user_num2,user_num3)
