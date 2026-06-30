@@ -20,3 +20,23 @@ print(greetsplit)
 print(' '.join(greetsplit), 'joined back together from the split list') #joins a list with the ' ' as the seperator
 startsWithHello = greet.startswith('Hello') #checks the string starts with 'Hello' 
 print('it is',startsWithHello,'that the strings starts with Hello')
+endswithg = greet.endswith('greeting!!')
+print('it is also', endswithg, 'that it ends wtih greeting!!')
+print('it is', greet.endswith('goodbye'),'that it ends in goodbye')
+
+# unicode
+
+val = input('enter a single letter to get unicode number: ')
+print(ord(val))
+print('Beth\\\nRudy\\nPaul\nJen')
+print("here is a quote 'to be or not to be'")
+print('new line \n new line \n new line \n ignore escape sequence \\\\')
+print('jimmy\tjohnny\tbob\tgeorge')
+
+vegetable_input = input('Enter vegetable: ')
+
+# Modify the string literal below
+my_list = "Amy's vegetables:\nOkra\tCorn\t"
+
+print(my_list, end="")
+print(vegetable_input)
