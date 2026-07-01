@@ -50,3 +50,14 @@ closing_costs = [
 
 total_cost = cost + sum(closing_costs)
 print(f'Total closing cost: ${int(total_cost)}.')
+
+
+# Reads two values from input into cities_list1
+cities_list1 = [input(), input()]
+# Reads two values from input into cities_list2
+cities_list2 = [input(), input()]
+
+cities_list3 = cities_list2 + cities_list1
+index_found = cities_list3.index('Madison')
+
+print(f'Madison is found at index {index_found} of {cities_list3}')
