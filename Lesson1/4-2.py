@@ -48,3 +48,11 @@ print(my_str[0])  # H
 print(my_str[6])  # w
 print(my_str[-1])  # d
 print(my_str[-2]) # l
+
+# mutable and immutable strings in python
+
+greeting = 'hi'
+greeting = 'hello'
+print(greeting) # hello
+
+# greeting[0] = 'H' -- this will end in TypeError: 'str' object does not support item assignment
