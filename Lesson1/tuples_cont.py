@@ -12,7 +12,8 @@ for x in student:
 if "Bro" in student:
     print('Bro is here')
 dict_color = {'red':55, 'green': 155, 'blue': 255}
-
+print(dict_color)
+print(type(dict_color))
 color1 = (55, 155, 255)
 
 print(f'{color1[0]}')
