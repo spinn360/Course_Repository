@@ -11,3 +11,15 @@ elif party_size >= 25:
     print('Looks like we will be booking you an entire room')
 else:
     print('Counter seating for you')
+
+    ''' correct statement requires correct formatting
+if condition:
+    result
+elif condition:
+    result
+else:
+    result
+
+    do not have elif with same spacing as result and be sure to include : after
+    condition
+    '''
