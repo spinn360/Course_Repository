@@ -9,7 +9,11 @@ elif 1<= user_grade <= 5:
 else:
     print('not in 1st through 12 grade')
 
-
+a = int(input('Enter a number: '))
+if 5 <= a <= 15:
+    print('the # is between 5 and 15')
+else:
+    print('The number is not between 5 and 15')
 # just an if elif elif else
 
 num_coats = int(input('Enter number of coats you own: '))
