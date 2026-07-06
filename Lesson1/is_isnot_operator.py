@@ -1,3 +1,8 @@
+# is and is not are for evaluating if objects are the same object
+# it does not compare values so much as if both variables are pointing
+# to the same object not same value
+
+
 w = 500
 x = 500 + 500  # Create a new object with value 1000
 y = w + w      # Create a second object with value 1000
