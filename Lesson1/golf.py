@@ -12,7 +12,7 @@ if (strokes - 1) == par:
 if (strokes >= (par + 2)):
     print(f'Par {par} in {strokes} strokes is Error')
 
-    # better coding
+    # better coding fo zybooks 5.14 LAB
 
 if par not in (3, 4, 5):
     print(f'Par {par} in {strokes} strokes is Error')
