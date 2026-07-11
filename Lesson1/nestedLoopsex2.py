@@ -18,7 +18,7 @@ while letter1 <= 'z':  # Outer loop
                 if word == search:
                     print(f'Found {word}')
                 #else:
-                 #   print(f'Not found {word}')
+                    print(f'Not found {word}')
                 letter4 = chr(ord(letter4) + 1)
             letter3 = chr(ord(letter3) + 1)
         letter2 = chr(ord(letter2) + 1)
