@@ -492,12 +492,15 @@ if __name__ == '__main__':
     print(f'${driving_cost(miles_per_gallon,dollars_per_gallon,miles_driven):.2f} {miles_driven} miles')
     '''
 def create_a_butthole():
-    print('(*)')
+    butt_hole = '()*()'
+    print(f'{butt_hole:16}')
 def create_another_butthole(a='o'):
-    print(f'(){a}()')
+    butt_hole = '(){a}()'
+    print(f'{butt_hole:16}')
 let1 = ''
 while let1 != 'q':
-    let1= input('Enter your butthole: ')
+    ques ='Enter your butthole: '
+    let1= input(f'{ques:16}')
 
     create_a_butthole()
 
