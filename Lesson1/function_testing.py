@@ -451,6 +451,7 @@ def print_sandwich(meat, bread, **kwargs):
 print_sandwich('turkey', 'sourdough', sauce='mayo')
 print_sandwich('ham', 'wheat', sauce1='mustard', veggie1='tomato', veggie2='lettuce')'''
 
+'''
 student_scores = [75, 84, 66, 99, 51, 65]
 
 def get_grade_stats(scores):
@@ -471,3 +472,33 @@ average, standard_deviation = get_grade_stats(student_scores)
 
 print(f'Average score: {average}')
 print(f'Standard deviation: {standard_deviation}')
+'''
+'''
+def driving_cost(mpg = 0.0, dpg = 0.0, md = 0.0):
+    dollars = 0
+    dollars = (md / mpg) * dpg 
+    return dollars
+
+if __name__ == '__main__':
+    # Type your code here.
+
+    miles_per_gallon = float(input('Enter vehicles mpg: '))
+    dollars_per_gallon = float(input('Enter current gas price: '))
+    miles_driven = float(input('Enter miles driven: '))
+
+    print(f'${driving_cost(miles_per_gallon,dollars_per_gallon,10):.2f} 10 miles')
+    print(f'${driving_cost(miles_per_gallon,dollars_per_gallon,50):.2f} 40 miles')
+    print(f'${driving_cost(miles_per_gallon,dollars_per_gallon,400):.2f} 400 miles')
+    print(f'${driving_cost(miles_per_gallon,dollars_per_gallon,miles_driven):.2f} {miles_driven} miles')
+    '''
+def create_a_butthole():
+    print('(*)')
+def create_another_butthole(a='o'):
+    print(f'(){a}()')
+let1 = ''
+while let1 != 'q':
+    let1= input('Enter your butthole: ')
+
+    create_a_butthole()
+
+    create_another_butthole(let1)
