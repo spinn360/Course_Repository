@@ -53,6 +53,7 @@ List method	Description	Code example	                         >Final my_list val
 list.append(x)	Add an item to the end of list.	my_list = [5, 8]
 my_list.append(16)	                                             [5, 8, 16]
 list.extend([x])	Add all items in [x] to list.	my_list = [5, 8]
+list = list + otherlist is essentially the same as list.extend(otherlist).
 my_list.extend([4, 12])	                                         [5, 8, 4, 12]
 list.insert(i, x)	Insert x into list before position i.	my_list = [5, 8]
 my_list.insert(1, 1.7)	                                         [5, 1.7, 8]
@@ -95,6 +96,7 @@ print(mylist)
 mylist.remove('cat')
 print(mylist)
 mylist.pop(8)
+mylist.pop(5)
 print(mylist)
 mylist.pop()
 print(mylist)
@@ -102,5 +104,51 @@ print(mylist)
 #print(mylist)
 mylist.reverse()
 print(mylist)
-print(mylist.index(3))
+#print(mylist.index(3))
 print(mylist.count(3))
+
+'''
+not_on_board = input().split()
+on_board_bus = input().split()
+
+print(f'Passengers waiting at a bus stop: {not_on_board}')
+print(f'Passengers on board: {on_board_bus}')
+removed = on_board_bus[0]
+on_board_bus.pop(0)
+print(f'Passenger alighted: {removed}')
+on_board_bus.extend(not_on_board)
+print(f'Updated passengers on board: {on_board_bus}')
+'''
+'''tokens = input().split()
+ticket_numbers = []
+for token in tokens:
+    ticket_numbers.append(int(token))
+
+ticket_numbers.sort()
+first_smallest = ticket_numbers[0]
+second_smallest = ticket_numbers[1]
+third_smallest = ticket_numbers[2]
+
+print(f'Sorted ticket numbers: {ticket_numbers}')
+print(f'Smallest: {first_smallest}')
+print(f'Second smallest: {second_smallest}')
+print(f'Third smallest: {third_smallest}')
+'''
+'''Method	Description
+append(item)	Adds an item to the end of the list.
+clear()	Removes all items from the list.
+copy()	Returns a shallow copy of the list.
+count(item)	Returns the number of occurrences of the specified item in the list.
+extend(iterable)	Extends the list by appending all items from an iterable.
+index(item)	Returns the index of the first occurrence of the specified item.
+insert(index, item)	Inserts an item at the specified index in the list.
+pop(index)	Removes and returns the item at the specified index.
+remove(item)	Removes the first occurrence of the specified item from the list.
+reverse()	Reverses the elements of the list in place.
+sort()	Sorts the list in place.
+
+Additional List Methods
+
+Use help(list) and print(dir(list)) to see more about lists and their methods. These commands provide detailed information and a list of available list methods.
+
+'''
