@@ -166,3 +166,60 @@ print(countUpper('Welcome to WGU'))
  
 # expected output: 2
 print(countUpper('Hello, Mary'))
+
+###################################################
+
+user_string = input('Enter a number: ')
+
+if user_string.isdigit():
+    print('Yes')
+else:
+    print('No')
+
+####################################################
+
+full_name = input('Enter full name: ')
+name_list = full_name.split()
+if len(name_list) == 3:
+    print(name_list[2]+',', name_list[0][0]+'.'+ name_list[1][0]+'.')
+elif len(name_list) == 2:
+    print(name_list[1]+',', name_list[0][0]+'.')
+
+##########################################################
+
+str = input('Enter a letter to search for then a phrase to search then hit enter: ')
+target_char = str[0]
+phrase = str[2:]
+countstr = 0
+for char in phrase:
+    if char == target_char:
+        countstr += 1
+if countstr == 1:
+    print(countstr, target_char)
+elif countstr >1:
+    print(countstr, target_char+"'s")
+else:
+    print(countstr, target_char+"'s")
+
+
+###############################################################
+
+while True:
+    answer = input('Enter food type and a number(ex: apples 2) or quit to exit: ')
+    libslist = answer.split()
+    
+    if libslist[0] == 'quit':
+        break
+    word = libslist[0]
+    number = libslist[1]
+
+    print(f'Eating {number} {word} a day keeps you happy and healthy.')
+
+    ###############################################################
+
+my_string = input('Enter a string to return only alphanumeric: ')
+newstring = ''
+for char in my_string:
+    if char.isalnum():
+        newstring = newstring + char
+print(newstring)
