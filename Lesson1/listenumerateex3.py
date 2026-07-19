@@ -8,7 +8,7 @@ for token in tokens:
 print(f'Sequence: {data_values}')
 
 min_diff = None
-
+max_diff = None
 for i, val in enumerate(data_values):
     if i > 0:
         prev_val = data_values[i-1]
@@ -17,5 +17,7 @@ for i, val in enumerate(data_values):
         
         if min_diff == None or neighbor_diff < min_diff:
             min_diff = neighbor_diff
-
+        if max_diff == None or neighbor_diff > max_diff:
+            max_diff = neighbor_diff
 print(f'The smallest difference between two neighboring values is {min_diff}')
+print(f'The largest difference between two neighboring values is {max_diff}')
