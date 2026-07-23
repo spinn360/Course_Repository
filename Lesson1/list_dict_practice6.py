@@ -3,7 +3,8 @@ def removeFirst(mylist):
     mylist.pop(0)
     return mylist
 # Student code goes here
- 
+ #alternate one liner
+    # return mylist[1:]
 # expected output: [7, 8, 9]
 print(removeFirst([6,7,8,9]))
  
