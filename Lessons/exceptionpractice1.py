@@ -3,9 +3,9 @@ class JustNotCoolError(Exception):
 
 x =2 
 try:
-    raise JustNotCoolError("this just isn't cool man")
+    #raise JustNotCoolError("this just isn't cool man")
     #raise Exception('I am a custom exception') #custom exception
-    #print(x /0)
+    print(x * 0)
     #if not type(x) is str:
     #    raise TypeError('Only strings are allowed')
 except NameError:
