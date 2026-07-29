@@ -1,5 +1,5 @@
 print('Opening file myfile.txt.')
-f = open('/home//Documents/gitrepo/Course_Repository/Lessons/myfile.txt')  # create file object
+f = open('myfile.txt')  # create file object
 
 print('Reading file myfile.txt.')
 contents = f.read()  # read file text into a string
