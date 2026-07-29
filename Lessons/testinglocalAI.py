@@ -19,4 +19,5 @@ file.close()
 file = open('newfile.txt', 'r')
 print(file.readlines())
 file.close()
+print('file closed')
             
