@@ -1,6 +1,7 @@
 # Complete the function to remove a dictionary item if it exists
 def removeDictItem(mydict, key):
-    return mydict.pop(key, '')
+    mydict.pop(key, '')
+    return mydict
 
 # Student code goes here
  
