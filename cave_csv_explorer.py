@@ -13,9 +13,9 @@ with open(user_input, 'r') as f:
             caves[name] = {'location': location, 'time' : [time]}
         else:
             caves[name]['time'].append(time)
-for name, timestamp in caves.items():
+for name, innerdict in caves.items():
     display_cave = name[:28]
-    cave_time_str = ' '.join(timestamp['time'])
-    caveloc = timestamp['location']
+    cave_time_str = ' '.join(innerdict['time'])
+    caveloc = innerdict['location']
 
     print(f'{display_cave:<28} | {caveloc:>12} | {cave_time_str}')
