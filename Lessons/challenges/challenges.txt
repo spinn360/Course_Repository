@@ -1,0 +1,191 @@
+Challenge 1: 
+Unit ConversionsBased on: Converting 
+a total number of ounces into tons, pounds, and 
+remaining ounces using floor division (//) and 
+modulo (%) operators.  Your Task:Write a script 
+that accepts an integer representing a total 
+number of inches. Convert that total into miles, 
+yards, feet, and remaining inches.There are 12 
+inches in a foot.There are 3 feet in a yard.
+There are 1760 yards in a mile.
+Output the converted miles, yards, feet, and inches.
+
+
+Challenge 2: 
+Data Types & Exception Handling
+Based on: Evaluating elements in a mixed data 
+list by their index, determining their data 
+type (iterable or numeric), and handling 
+out-of-bounds errors with a try/except block.  
+Your Task:Create the following list representing 
+off-road trail data:
+trail_data = ["Rubicon",
+             22.5, 4,
+             ["mud", "rocks"],
+             None, {"difficulty": "hard"}
+             ]
+Accept an integer input for the index.
+If the index exists, print the element and its data 
+type.Add logic to print a specific message if the 
+element is iterable, a different message if it is 
+numeric, and a fallback message for anything else.
+If the user enters an index that doesn't exist, use 
+a try/except block to output "Error".
+
+
+Challenge 3: 
+Mathematical FormulasBased on: Accepting three inputs 
+to calculate the area of a trapezoid using a specific 
+mathematical formula.  Your Task:Write a script that 
+accepts three integer values representing the length 
+($l$), width ($w$), and height ($h$) of a cave chamber. 
+Calculate and output the volume of the chamber in cubic 
+meters using the formula $V = l \times w \times h$.
+
+
+Challenge 4: 
+Multi-Input Type CastingBased on: Accepting five integer 
+inputs and outputting their combined value as an integer 
+sum, a float sum, and a concatenated string.  Your Task:
+Write a program that asks for the weights of five fish 
+caught during a catch-and-release trip.Calculate the sum 
+of all five weights as an integer.Cast that total sum 
+into a float.Concatenate all five original inputs into a 
+single, continuous string.Print all three results.
+
+Challenge 5: 
+String Slicing & FormattingBased on: Taking a raw 9-digit 
+integer and formatting it into a string with hyphens using 
+string slicing.  Your Task:Write a script that accepts a 
+10-digit integer representing a vehicle part number 
+(e.g., 5551234567). Convert it into a string and use 
+slicing to format and print it with hyphens like this: 
+555-123-4567.
+
+Challenge 6: 
+Conditional Range LogicBased on: 
+Using if/elif/else statements to categorize an integer 
+temperature into different states, and triggering an 
+optional safety comment at specific thresholds.  Your 
+Task: Write a script that accepts an integer representing 
+a Jeep's engine temperature. Determine the state and output 
+an optional warning string based on these rules:Temperature 
+$\ge 240$: State is "Overheating". Optional comment is "Pull 
+over immediately!"Temperature between 210 and 239 (inclusive): 
+State is "Running Hot".Temperature between 195 and 
+209 (inclusive): State is "Optimal".Temperature $< 195$: 
+State is "Warming Up".Temperature $< 32$: State is "Freezing". 
+Optional comment is "Check antifreeze!"Print the engine state, 
+and if there is an optional comment, print that on the next 
+line.
+
+
+Challenge 7: 
+Dictionary Lookups & DiscountsBased on: Looking up an item's 
+price in a dictionary and calculating the total cost based on 
+the quantity purchased, applying a 5% discount for 10-20 items 
+and a 10% discount for 21 or more.  Your Task:Create a dictionary 
+of hiking gear:gear = {"carabiner": 5.50, "rope": 45.00, "headlamp": 
+25.99, "trail_mix": 3.25}Accept a string input for the item to 
+purchase.Accept an integer input for the quantity.If fewer than 10 
+items are bought, charge full price.If between 10 and 20 items 
+(inclusive) are bought, apply a 5% discount.If 21 or more items are 
+bought, apply a 10% discount.Output the total cost formatted to two 
+decimal places.
+
+Challenge 8: Functions & Boolean ReturnsBased on: Using a custom 
+function to check if a user's input exists within a pre-defined list, 
+returning a Boolean value, and triggering the logic inside an if 
+__name__ == '__main__': block.  Your Task:Create a pre-defined list 
+of your favorite anime titles (e.g., ['Akira', 'Cowboy Bebop', 
+'Evangelion']).
+Ask the user to input a title.Define a function named check_anime(a) 
+that compares the input against the list and returns True or False.
+Use the if __name__ == '__main__': block to execute the input request 
+and print the function's result.
+
+
+Challenge 9: 
+While Loops & AccumulatorsBased on: Accepting an integer 
+for the number of items, using a while loop to accept string inputs, 
+checking those inputs against a dictionary, and accumulating a total 
+value to print with two decimal places.  Your Task:Create a dictionary 
+mapping AI music generation models to their credit costs:models = 
+{'Suno v3': 10.50, 'Suno v3.5': 15.00, 'MusicGen': 5.25, 'Udio': 12.00}
+Ask the user how many generations they want to run (integer input).
+Use a while loop to accept string inputs for the model names.If the model 
+name matches a key in the dictionary, add its cost to a running total.
+Print the final total cost of credits formatted to two decimal places.
+
+
+Challenge 10: 
+Lists & Exception HandlingBased on: Extracting an element from a list 
+using an integer index provided by the user, and using a try/except 
+block to catch errors if the index is out of bounds.  Your Task:
+Create a list of replacement components for a Lenovo E14 
+laptop:parts = ["Battery", "16GB RAM", "512GB SSD", "Keyboard", 
+"Screen Panel"]Prompt the user for an integer index.Use a try block to 
+print the specific component at that index.Use an except block to print 
+"Error" if the user enters a number that doesn't exist in the list.
+
+Challenge 11: 
+Mathematical Formulas & VariablesBased on: Accepting integer inputs to 
+perform mathematical operations and outputting an exact calculation.  
+Your Task:Write a script to calculate the percentage increase in width 
+when swapping out tires.Accept an integer for the old tire width 
+(e.g., 225).Accept an integer for the new tire width (e.g., 245).
+Calculate the percentage increase using the 
+formula:$$P = \frac{New - Old}{Old} \times 100$$
+Output the result as a percentage.
+
+
+Challenge 12: 
+String SlicingBased on: 
+Accepting a raw integer input, converting it to a string, and using 
+slice notation to format it with specific characters.  Your Task:
+Write a script that accepts an 11-digit integer representing a Data 
+Analytics student enrollment number (e.g., 98765432100).Convert the 
+integer to a string.Use string slicing to format and print it with a 
+prefix and hyphens like this: WGU-9876-543-2100.
+
+
+Challenge 13: 
+Dictionary Lookups & Conditional RangesBased on: Looking up values in 
+a dictionary and applying different mathematical adjustments (like 
+discounts) based on a quantity falling into specific numeric ranges 
+(<10, 10-20, 21+).  Your Task:Create a dictionary representing cloud 
+compute times in seconds for different ComfyUI nodes:nodes = 
+{"KSampler": 14.5, "VAE_Decode": 2.2, "ControlNet": 8.4, 
+"FaceDetailer": 12.1}
+Ask the user which node they want to batch process.Ask for the quantity 
+of images (integer).If the quantity is less than 10, calculate the total 
+compute time normally.If the quantity is between 10 and 20 (inclusive), 
+the system runs 5% faster (multiply total time by 0.95).If the quantity 
+is 21 or more, the system runs 10% faster (multiply total time by 0.90).
+Output the total compute time formatted to two decimal places.
+
+
+Challenge 14: 
+Multi-Input Type Casting & ConcatenationBased on: Accepting five integer 
+inputs, calculating their sum, converting the sum to a float, and 
+concatenating the original inputs into a single string.  Your Task:
+Write a program that asks for the lengths (in seconds) of five different 
+song drafts sent to you by your brother.Accept five integer inputs.
+Calculate the total length of all five songs as an integer.Cast that 
+integer total into a float.Concatenate all five original input numbers 
+into a single string.Print all three distinct results.
+
+
+Challenge 15: 
+Iterables & Data TypesBased on: Accessing a mixed-data list by index, 
+identifying the element's data type, checking if it possesses the 
+__iter__ attribute, and printing specific messages based on the type.  
+Your Task:Create a mixed-data list representing a dataset of movie 
+statistics:movie_data = ["The Matrix", 1999, 8.7, ["Sci-Fi", "Action"], 
+{"Director": "Wachowskis"}, None]
+Ask the user for an index input.Use a try/except block. Inside the 
+try block, grab the element and its type().Use hasattr(element, 
+'__iter__') to check if it can be iterated over. If so, set a message 
+saying "This is iterable data."If it is an int or float, set a message 
+saying "This is a numeric metric."Otherwise, set the message to 
+"Other data type."Print the element, its type, and your custom message.
